@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--  creating nav bar -->
+    <main>
+
+        <nav id="nav1">
+            <li id="home"><img src="v img.jpg"><a href="#">
+                    <h3>Milao</h3>
+                </a></li>
+            <ul>
+
+                <li><a href="#">Search Naukari</a></li>
+                <li><a href="#">companey review</a></li>
+                <li><a href="#">find salaries</a></li>
+            </ul>
+
+            <li id="hoe"><img src="pic-1.png">
+                <h3>Jone Doe</h3>
+            </li>
+        </nav>
+
+        <!-- nav var 2 -->
+
+        <nav id="nav2">
+
+            <div>
+                <input type="text" placeholder="&#128269; Product Disigner  *" />
+                <pre>  </pre>
+                <input type="text" placeholder="&#xF002; UI Designer  *" />
+            </div>
+
+            <div><input type="text" placeholder="&#9990; New Delhi, india" /></div>
+            <div><input type="text" placeholder="&#xF002; Job" /></div>
+            <div><input type="text" placeholder="&#xF002; Saleary Range" />
+                <div id="boxin">
+                    <h3>find job</h3>
+                </div>
+            </div>
+        </nav>
+
+
+        <section>
+
+            <div id="sec1">
+                
+                <div class="job">
+                    <div class="col1">
+                        <h3>create job alert</h3>
+                        <p>create a job alert row and never miss a job</p>
+                        <input type="text" placeholder="Enter job Keyword">
+                        <button>Create job alerts</button>
+                    </div>
+                    <div class="col2">
+                        <h3>Type of employment</h3>
+                        <ul>
+                            <li><input type="checkbox" name="chekbox"> full time jobs</li>
+                            <li><input type="checkbox" name="chekbox">part time jobs</li>
+                            <li><input type="checkbox" name="chekbox">remote jobs</li>
+        
+                            <li><input type="checkbox" name="chekbox">intership jobs</li>
+                            <li><input type="checkbox" name="chekbox"> contact</li>
+                            <li><input type="checkbox" name="chekbox"> traning jobs</li>
+                        </ul>
+                    </div>
+                    <div class="col3">
+                        <h3>seniority level</h3>
+                        <ul>
+                            <li><input type="checkbox" name="chekbox"> student level</li>
+                            <li><input type="checkbox" name="chekbox"> entity level</li>
+                            <li><input type="checkbox" name="chekbox">mid level</li>
+        
+                            <li><input type="checkbox" name="chekbox">senoiur level</li>
+                            <li><input type="checkbox" name="chekbox"> director</li>
+                            <li><input type="checkbox" name="chekbox">VP or above</li>
+                        </ul>
+                    </div>
+                    <div class="col4">
+                        <h3>seniority level</h3>
+                        <ul>
+                            <li><input type="checkbox" name="chekbox"> $700 - $1000</li>
+                            <li><input type="checkbox" name="chekbox"> $1000 - $1200</li>
+                            <li><input type="checkbox" name="chekbox"> $1200 - $1400</li>
+        
+                            <li><input type="checkbox" name="chekbox"> $1400 - $1500</li>
+                            <li><input type="checkbox" name="chekbox"> $1500 - $1700</li>
+                            <li><input type="checkbox" name="chekbox"> $1700 - $2000</li>
+                        </ul>
+                    </div>
+                   
+                </div>
+
+            </div>
+
+
+            <div id="sec2">
+
+                <section id="divsec2">
+
+                    <figure>
+
+                        <img
+                            src="data:image/png;base64,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">
+                        <figcaption>
+                            <h2>UI / Dx desingner</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, sapiente? Facilis
+                                incidunt
+                                s soluta enim, </p>
+                        <button>Apply Now</button>  <button>Apply Now</button>
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+
+                        <img
+                            src="data:image/png;base64,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">
+                        <figcaption>
+                            <h2>User Exprience disigner</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, sapiente? Facilis
+                                incidunt
+                                s soluta enim, </p>
+                            <button>Apply Now</button>  <button>Apply Now</button>
+                        </figcaption>
+
+                    </figure>
+
+                    <figure>
+
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN4soySxXYqh21ar6hI3aAodpxVdAcaW-Rhw&usqp=CAU">
+
+                        <figcaption>
+                            <h2>Coding Block Devloper</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, sapiente? Facilis
+                                incidunt
+                                soluta enim, </p>
+                            <button>Apply Now</button>  <button>Apply Now</button>
+                        </figcaption>
+
+                    </figure>
+
+                    <figure>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1567581935884-3349723552ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bW9iaWxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                        <figcaption>
+                            <h2>Ui XI Designer</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, sapiente? Facilis
+                                incidunt
+                                soluta enim, </p>
+                            <button>Apply Now</button>  <button>Apply Now</button>
+                        </figcaption>
+
+                    </figure>
+
+                    <figure>
+
+                        <img
+                            src="data:image/png;base64,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">
+
+                        <figcaption>
+                            <h2>Gla Developer</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, sapiente? Facilis
+                                incidunt
+                                soluta enim, </p>
+                        <button>Apply Now</button>  <button>Apply Now</button>
+                        </figcaption>
+
+                    </figure>
+
+                    <figure>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZnJpZGdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                        <figcaption>
+                            <h2>UI Code Runner</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, sapiente? Facilis
+                                incidunt
+                                soluta enim, </p>
+                        <button>Apply Now</button>  <button>Apply Now</button>
+                        </figcaption>
+
+                    </figure>
+
+                    <figure>
+
+                        <img
+                            src="https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZnJpZGdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+
+                        <figcaption>
+                            <h2>Java DEveloper</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, sapiente? Facilis
+                                incidunt
+                                soluta enim, </p>
+                        <button>Apply Now</button>  <button>Apply Now</button>
+                        </figcaption>
+
+                    </figure>
+
+                    <figure>
+
+                        <img
+                            src="data:image/png;base64,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">
+
+                        <figcaption>
+                            <h2>Monu Bhaiya Developer</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, sapiente? Facilis
+                                incidunt
+                                soluta enim, </p>
+                        <button>Apply Now</button>  <button>Apply Now</button>
+                        </figcaption>
+
+                    </figure>
+
+                    <figure>
+
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Pn-b3gylzAKvZI6aGn_tDMdpKoih5-kclw&usqp=CAU">
+
+                        <figcaption>
+                            <h2>Naman Bahiay Developer</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, sapiente? Facilis
+                                incidunt
+                                soluta enim, </p>
+                    <button>Apply Now</button>  <button>Apply Now</button>
+                        </figcaption>
+
+                    </figure>
+
+                </section>
+
+            </div>
+
+        </section>
+
+    </main>
+</body>
+
+</html>
